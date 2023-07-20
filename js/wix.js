@@ -1,4 +1,4 @@
-let AccessCode = "5";
+var AccessCode = 0;
 
     fetch("https://www.strava.com/oauth/token?client_id=105639&client_secret=7189c307da8243d844c6baa42687e07b6bf2602f&refresh_token=12e9e2963c28b90e2c2da47839f26875c76952f1&grant_type=refresh_token", {
         "method": "POST",
